@@ -1,11 +1,10 @@
 package com.dodola.watchdogkiller;
 
+import android.os.Build;
+import android.util.Log;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-
-import android.os.Build;
-import android.os.Debug;
-import android.util.Log;
 
 /**
  * Created by dodola on 2018/12/3.
