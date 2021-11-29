@@ -11,6 +11,7 @@ public class SampleApplication extends Application {
     @Override
     protected void attachBaseContext(final Context base) {
         super.attachBaseContext(base);
+        // https://www.infoq.cn/article/NxlcJikbFaoTeACHxMQk
         final Thread.UncaughtExceptionHandler defaultUncaughtExceptionHandler = Thread.getDefaultUncaughtExceptionHandler();
         Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
             @Override
